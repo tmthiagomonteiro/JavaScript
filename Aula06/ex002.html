@@ -8,23 +8,22 @@
         body {
             background-color: #09b1b4;
             font-family: Arial, sans-serif;
-            color: white;
+            color: white; /* Comentário CSS */
         }
         h1 {
-            color yelow;
+            color: yellow
         }
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Olá, mundo!</h1> <!--Comentário HTML-->
     <p>Ja me livrei da maldição</p>
     <script>
-        window.alert('Olá, Minha primeira menssagem!');
-            //Abre um prompt para o usuário
-        window.confirm('Está gostando do curso?');
-            //Abre um alerta com uma mensagem
-        window.prompt('Qual é o seu nome?');
-            //Abre uma caixa pra preenchimento de dados 
+        var nome = window.prompt('Qual é o seu nome?');
+            //Pergunta o nome..
+        window.alert ('Olá, ' + nome + ' Seja bem-vindo!');
+            //Mostra o nome na tela
+             
     </script>
 </body>
 </html>
